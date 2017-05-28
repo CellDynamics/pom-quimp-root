@@ -7,10 +7,11 @@
     <relativePath/>
   </parent>
   <!-- Project's coordinates -->
-  <groupId>uk.ac.warwick.wsbc</groupId>
+  <groupId>com.github.celldynamics</groupId>
   <artifactId>pom-quimp-root</artifactId>
   <packaging>pom</packaging>
-  <version>1.0.0</version>
+  <!-- Versioned as parent pom -->
+  <version>16.1.0</version>
   <!-- Name and licencing and other project informations -->
   <name>QuimP Root POM</name>
   <url>www.warwick.ac.uk/quimp</url>
@@ -23,9 +24,9 @@
       NB: We override these properties to make the enforcer happy.
       You will need to override them in your POM, too... to valid values.
       -->
-    <license.licenseName>N/A</license.licenseName>
+    <license.licenseName>MIT</license.licenseName>
     <license.copyrightOwners>N/A</license.copyrightOwners>
-    <license.url>N/A</license.url>
+    <license.url>https://github.com/CellDynamics/pom-quimp-root/blob/master/LICENSE</license.url>
   </properties>
   <!--
       NB: We override these properties to make the enforcer happy.
@@ -221,8 +222,8 @@
   <profiles>
     <profile>
       <id>dev-collectdeps</id>
-      <!--Default profile for building pure jar-->
-      <!--Save dependencies in separate folder-->
+      <!-- Default profile for building pure jar -->
+      <!-- Save dependencies in separate folder -->
       <activation>
         <activeByDefault>false</activeByDefault>
       </activation>
