@@ -13,11 +13,10 @@
   <!-- Versioned as parent pom -->
   <version>16.1.0</version>
   <!-- Name and licencing and other project informations -->
-  <name>QuimP Root POM</name>
+  <name>QuimP parent POM</name>
   <url>www.warwick.ac.uk/quimp</url>
-  <description>This POM provides a parent that QuimP and its plugins can be derrived from.</description>
+  <description>Parent POM for QuimP and other projects related to it</description>
   <inceptionYear>2017</inceptionYear>
-  <!-- Root of URL for documentation. MUST have / at end -->
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <!--
