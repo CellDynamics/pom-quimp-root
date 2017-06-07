@@ -2,3 +2,10 @@
 
 # pom-quimp-root
 Root pom for QuimP related projects
+
+## Deploying
+```sh
+mvn release:prepare -DpushChanges=false
+git push --follow-tags
+mvn release:perform -P sonatype-oss-release
+```
