@@ -190,7 +190,7 @@
             </dependency>
           </dependencies>
           <configuration>
-            <configLocation>http://pilip.lnx.warwick.ac.uk/quimp_google_checks.xml</configLocation>
+            <configLocation>https://pilip.lnx.warwick.ac.uk/quimp_google_checks.xml</configLocation>
           </configuration>
         </plugin>
       </plugins>
